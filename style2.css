@@ -1,0 +1,38 @@
+/* Background */
+body {
+    background: lightpink url("page2.gif") repeat fixed center;
+    color: black;
+    
+}
+/* Box Model */ 
+div {
+    font-family: cursive;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    width: 50%;
+    border: solid 10px lightcyan;
+    padding: 10px;
+
+}
+/* Parent Selector */
+.parent-child > li {
+    color: turquoise
+}
+
+
+/* Ancestor Selector */ 
+.ancestor-descendant> li {
+    color: darkorchid
+}
+
+
+/* Selector */
+b, ul, li, p {
+    background-color: white;
+    width: 60%;
+  }
+p {
+    background-color: white;
+    width: 25%;  
+}
